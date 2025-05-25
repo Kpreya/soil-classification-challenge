@@ -174,7 +174,7 @@ The training pipeline generates several outputs:
 
 
 
-## 🔍odel Insights
+## 🔍Model Insights
 
 ### Strong Performance
 - **Alluvial soil**: Highest precision (0.99) - very few false positives
