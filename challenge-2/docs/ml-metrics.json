@@ -1,0 +1,58 @@
+{
+  "_comment": "This JSON file containing the ml-metrics",
+  "Name": "Annam.ai",
+  "Kaggle Username": "annam.ai",
+  "Team Name": "KrishiAI",
+    "overall": {
+        "accuracy": 0.9748,
+        "precision": 0.9717,
+        "recall": 0.9959,
+        "f1_score": 0.9836
+    },
+    "confusion_matrix": {
+        "true_negative": 66,
+        "false_positive": 7,
+        "false_negative": 1,
+        "true_positive": 244
+    },
+    "per_class": {
+        "non_soil": {
+            "precision": 0.9851,
+            "recall": 0.9041,
+            "f1_score": 0.9429,
+            "support": 73
+        },
+        "soil": {
+            "precision": 0.9721,
+            "recall": 0.9959,
+            "f1_score": 0.9839,
+            "support": 245
+        }
+    },
+    "macro_avg": {
+        "precision": 0.9786,
+        "recall": 0.9500,
+        "f1_score": 0.9634
+    },
+    "weighted_avg": {
+        "precision": 0.9748,
+        "recall": 0.9748,
+        "f1_score": 0.9745
+    },
+    "model_info": {
+        "architecture": "ResNet50-based Soil Classifier",
+        "training_strategy": "Transfer Learning with Synthetic Negatives",
+        "image_size": "224x224",
+        "epochs_trained": 15,
+        "early_stopping": true,
+        "data_augmentation": true,
+        "synthetic_negatives": true
+    },
+    "training_details": {
+        "total_samples": 318,
+        "validation_split": 0.2,
+        "synthetic_negative_ratio": 0.5,
+        "image_enhancement": true,
+        "quality_assessment": true
+    }
+}
